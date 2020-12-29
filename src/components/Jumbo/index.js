@@ -1,14 +1,13 @@
 import React from "react";
+import coverImage from "../../assets/photos/IMG_5703.JPG"
 
 function Jumbo() {
-    return (
-        <div className="jumbotron">
-            
-            <h1 className="display-4">Michael Napolitano</h1>
-            <p className="lead">Full Stack Web Developer</p>
-            
-      </div>
-    );
+     return (
+        <section className="Jumbotron">
+    <img src={coverImage} style={{ width: "100%", position: "centered" }} alt="cover"
+    />
+</section>
+     );
   }
   
   export default Jumbo;

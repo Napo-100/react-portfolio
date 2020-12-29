@@ -1,16 +1,50 @@
 import React from "react";
+import logo from "../../logo.svg";
+import "../../App.css";
+import "../../index.css";
 
 function Nav() {
-//   return (
-//     <nav className="header navbar navbar-dark bg-dark">
-//       <span className="navbar-brand mb-0 h1">Michael Napolitano</span>
-//       <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-//           <li className = "nav-item">
-//           <a className="nav-link" href="">test <span className="sr-only">(current)</span></a>
-//           </li>
-//       </ul>
-//     </nav>
-//   );
+  return (
+    <nav className="navbar navbar-expand-lg navbar-dark black-background mb-3">
+      <img
+        src={logo}
+        className="App-logo"
+        style={{ width: "4%", height: "4%" }}
+        alt="logo"
+      />
+      <a className="navbar-brand" href="/">
+        <h4>
+        Michael Napolitano
+          </h4>
+      </a>
+      <button
+        className="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span className="navbar-toggler-icon"></span>
+      </button>
+      <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div className="navbar-nav"></div>
+      </div>
+      <a className="nav-link text-light" href="">
+        <h5>About Me</h5>
+      </a>
+      <a className="nav-link text-light" href="">
+      <h5>Projecs</h5>
+      </a>
+      <a className="nav-link text-light" href="">
+      <h5>Contact</h5>
+      </a>
+      <a class="nav-link text-light" href="">
+      <h5>Resume</h5>
+      </a>
+    </nav>
+  );
 }
 
 export default Nav;
