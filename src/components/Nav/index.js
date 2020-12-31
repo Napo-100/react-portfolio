@@ -6,44 +6,70 @@ import "../../index.css";
 
 function Nav() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark black-background mb-3">
-      <img
-        src={logo}
-        className="App-logo"
-        style={{ width: "4%", height: "4%" }}
-        alt="logo"
-      />
-      <Link className="navbar-brand" to="/">
-        <h4>
-        Michael Napolitano
-          </h4>
-      </Link>
-      <button
-        className="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div className="navbar-nav"></div>
+    <nav className="bg-gray-900 flex items-center justify-between flex-wrap p-6 w-full z-10 top-0">
+      <div className="flex items-center flex-shrink-0 text-white mr-6">
+        <img
+          className="lg:block h-8 w-auto App-logo"
+          src={logo}
+          alt="react logo"
+        />
+        <Link
+          className="text-white  px-3 py-2 rounded-md text-xl font-medium"
+          to="/"
+        >
+          <h5 className="text-3xl text-white flex justify-center">
+            Michael Napolitano
+          </h5>
+        </Link>
       </div>
-      <Link className="nav-link text-light" to="/aboutme">
-        <h5>About Me</h5>
-      </Link>
-      <Link className="nav-link text-light" to="/projects">
-      <h5>Projects</h5>
-      </Link>
-      <Link className="nav-link text-light" to="/contact">
-      <h5>Contact</h5>
-      </Link>
-      <Link class="nav-link text-light" to="/resume">
-      <h5>Resume</h5>
-      </Link>
+      {/* Burger collapse for smaller screen sizes */}
+      <div className="block lg:hidden">
+        <button
+          id="nav-toggle"
+          className="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-white hover:border-white"
+        >
+          <svg
+            className="fill-current h-3 w-3"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>Menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+          </svg>
+        </button>
+      </div>
+
+      <div
+        className="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block pt-6 lg:pt-0"
+        id="nav-content"
+      >
+        <ul className="list-reset lg:flex justify-end flex-1 items-center">
+          <Link
+            className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
+            to="/aboutme"
+          >
+            About Me
+          </Link>
+          <Link
+            className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
+            to="/projects"
+          >
+            Projects
+          </Link>
+          <Link
+            className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
+            to="/contact"
+          >
+            Contact
+          </Link>
+          <Link
+            className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
+            to="/resume"
+          >
+            Resume
+          </Link>
+        </ul>
+      </div>
     </nav>
   );
 }
