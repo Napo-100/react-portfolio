@@ -6,10 +6,10 @@ import "../../index.css";
 
 function Nav() {
   return (
-    <nav className="bg-black flex items-center justify-between flex-wrap p-6 w-full z-10 top-0">
+    <nav className="bg-black flex items-center justify-between flex-wrap p-6 w-full h-36 z-10 top-0">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
         <img
-          className="lg:block h-8 w-auto App-logo"
+          className="lg:block h-20 w-auto App-logo"
           src={logo}
           alt="react logo"
         />
