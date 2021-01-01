@@ -5,6 +5,7 @@ import Nav from "./components/Nav";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Projects from "./components/pages/Projects";
+import Contact from "./components/pages/Contact";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
             <Projects />
           </Route>
           <Route exact path="/contact">
-            <h1>Contact</h1>
+            <Contact />
           </Route>
           <Route exact path="/resume">
             <h1>Resume</h1>
