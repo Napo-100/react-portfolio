@@ -23,15 +23,15 @@ function Projects() {
   ]);
 
   return (
-    <main className="bg-blue-200 min-h-screen p-12">
-      <section className="container mx-auto">
-        <h1 className="flex justify-center text-indigo-800 font-extrabold sm:text-5xl md:text-6xl mb-4">
+    <main className="bg-black min-h-screen p-12 border-t-2 border-blue-300">
+      <section className="container mx-auto ">
+        <h1 className="flex justify-center text-blue-500 font-extrabold sm:text-5xl md:text-6xl mb-8">
           My Projects
         </h1>
-        <h2 className="text-2xl text-gray-900 flex justify-center mb-10">
+        {/* <h2 className="text-2xl text-blue-400 flex justify-center mb-10">
           Check 'em out!
-        </h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        </h2> */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 border-2 border-blue-300 p-10">
           {projectData.map((projects) => (
             <div className="hover:bg-blue-900">
               <article className="hover:shadow-xl group">
@@ -53,9 +53,9 @@ function Projects() {
                 </a>
               </article>
               <a href={projects.github} target="_blank" className="text-4xl">
-                <div className="grid text-blue-200 hover:text-black grid-cols-8">
+                <div className="grid text-black grid-cols-8">
                   <AiFillGithub />
-                  <p className="text-blue-200 text-sm col-span-7">
+                  <p className="text-black text-sm col-span-7">
                     pst...click down here to check out the code for{" "}
                     <span>{projects.name}</span>
                   </p>
