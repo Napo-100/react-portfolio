@@ -4,7 +4,7 @@ import backgroundImage from "../../assets/photos/IMG_4317.JPG";
 
 function About() {
   return (
-    <main className="bg-indigo-900 min-h-screen">
+    <main className="bg-gray-800 min-h-screen">
      
       <div className="container mx-auto aboslute lg:ml-5 lg:pt-5">
         <section className="bg-blue-200 lg:flex p-10">

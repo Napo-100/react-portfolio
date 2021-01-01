@@ -6,6 +6,7 @@ import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Projects from "./components/pages/Projects";
 import Contact from "./components/pages/Contact";
+import Resume from "./components/pages/Resume";
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
             <Contact />
           </Route>
           <Route exact path="/resume">
-            <h1>Resume</h1>
+            <Resume />
           </Route>
           <Route exact path="/">
             <Home />

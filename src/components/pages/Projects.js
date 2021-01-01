@@ -31,9 +31,7 @@ function Projects() {
         <h2 className="text-2xl text-gray-900 flex justify-center mb-10">
           Check 'em out!
         </h2>
-        <div
-          className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
-        >
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projectData.map((projects) => (
             <div className="hover:bg-blue-900">
               <article className="hover:shadow-xl group">
@@ -55,10 +53,11 @@ function Projects() {
                 </a>
               </article>
               <a href={projects.github} target="_blank" className="text-4xl">
-                <div className="grid grid-cols-8">
+                <div className="grid text-blue-200 hover:text-black grid-cols-8">
                   <AiFillGithub />
                   <p className="text-blue-200 text-sm col-span-7">
-                    pst...click down here to check out the code
+                    pst...click down here to check out the code for{" "}
+                    <span>{projects.name}</span>
                   </p>
                 </div>
               </a>
