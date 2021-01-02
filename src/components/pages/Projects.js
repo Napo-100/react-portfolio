@@ -3,6 +3,10 @@ import { AiFillGithub } from "react-icons/ai";
 
 import myStudioPortal from "../../assets/project-images/mystudioportal.png";
 import tourVid from "../../assets/project-images/tourvidApp.png";
+import travelPic from "../../assets/project-images/travel.jpg";
+import passGen from "../../assets/project-images/password-generator.jpg";
+import portfolioTemp from "../../assets/project-images/portfolio-temp.png";
+import noteTaker from "../../assets/project-images/note-taker.png";
 
 function Projects() {
   const [projectData] = useState([
@@ -15,17 +19,38 @@ function Projects() {
     },
     {
       name: "Travel App",
-      image: tourVid,
+      image: travelPic,
       link: "https://napo-100.github.io/Covid-travel-safety-app/",
-      components: "Javascript, Bulma, JQuery",
+      components: "Javascript, Bulma, 3rd-party-API",
       github: "https://github.com/Napo-100/Covid-travel-safety-app.git",
+    },
+    {
+      name: "Password Generator",
+      image: passGen,
+      link: "https://napo-100.github.io/challenge-three-password-generator/",
+      components: "Javascript, CSS",
+      github: "https://github.com/Napo-100/challenge-three-password-generator",
+    },
+    {
+      name: "Simple Portfolio mock-up",
+      image: portfolioTemp,
+      link: "https://napo-100.github.io/Michael-HTML-CSS-Portfolio/",
+      components: "HTML, CSS",
+      github: "https://github.com/Napo-100/Michael-HTML-CSS-Portfolio",
+    },
+    {
+      name: "Note Taker",
+      image: noteTaker,
+      link: "https://protected-brushlands-16725.herokuapp.com/",
+      components: "Javascript, Express.js, CSS",
+      github: "https://github.com/Napo-100/Note-Taker",
     },
   ]);
 
   return (
-    <main className="bg-black min-h-screen p-12 border-t-2 border-blue-300">
+    <main className="bg-black min-h-screen p-12 border-t-2 border-blue-400">
       <section className="container mx-auto ">
-        <h1 className="flex justify-center text-blue-500 font-extrabold sm:text-5xl md:text-6xl mb-8">
+        <h1 className="flex justify-center text-blue-600 font-bold sm:text-5xl md:text-6xl mb-8">
           My Projects
         </h1>
         {/* <h2 className="text-2xl text-blue-400 flex justify-center mb-10">

@@ -4,7 +4,7 @@ import "../../App.css";
 import { DiReact } from "react-icons/di";
 import { DiJavascript } from "react-icons/di";
 import { DiSqllite } from "react-icons/di";
-import { GiMustache} from "react-icons/gi";
+import { GiMustache } from "react-icons/gi";
 import { SiMongodb } from "react-icons/si";
 import { IoLogoNodejs } from "react-icons/io";
 import { GrMysql } from "react-icons/gr";
@@ -14,7 +14,7 @@ import backgroundImage from "../../assets/photos/IMG_4317.JPG";
 
 function About() {
   return (
-    <main className="bg-gray-800 min-h-screen border-t-2 border-blue-300">
+    <main className="bg-gray-800 min-h-screen border-t-2 border-blue-400">
       <div className="container mx-auto aboslute lg:ml-5 lg:pt-5">
         <section className="bg-black lg:flex p-10">
           <img
@@ -24,11 +24,11 @@ function About() {
           />
           <div className="text-lg flex flex-col justify-center">
             <h1 className="text-6xl mb-20 ">
-              <span className="text-blue-800 text-6xl"> Let's work </span>
+              <span className="text-blue-700 text-6xl"> Let's work </span>
               <span className="text-white text-6xl"> together </span>
-              <span className="text-blue-800 text-6xl"> and </span>
+              <span className="text-blue-700 text-6xl"> and </span>
               <span className="text-white text-6xl"> create</span>
-              <span className="text-blue-800 text-6xl"> something </span>
+              <span className="text-blue-700 text-6xl"> something </span>
               <span className="text-white text-6xl"> amazing.</span>
             </h1>
             <p className="text-white">"I like training"</p>
@@ -58,10 +58,10 @@ function About() {
               <IoLogoNodejs /> Node.js
             </span>
             <span className="text-5xl flex mt-4 col-span-2 text-blue-400">
-             <GrMysql /> MySQL
+              <GrMysql /> MySQL
             </span>
             <span className="text-5xl flex mt-4 col-span-3 text-blue-500">
-            <SiTailwindcss /> TailwindCSS
+              <SiTailwindcss /> TailwindCSS
             </span>
             <span className="text-5xl flex mt-4 col-span-2 App-link">
               <DiReact /> React
