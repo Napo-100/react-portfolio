@@ -46,25 +46,25 @@ function Nav() {
       >
         <ul className="list-reset lg:flex justify-end flex-1 items-center">
           <Link
-            className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-2xl font-medium ring-2 mr-4 focus:bg-blue-500 focus:text-white"
+            className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md xl:text-2xl lg:text-lg font-medium ring-2 mr-4 focus:bg-blue-500 focus:text-white"
             to="/aboutme"
           >
             About Me
           </Link>
           <Link
-            className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-2xl font-medium ring-2 mr-4 focus:bg-blue-500 focus:text-white"
+            className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md xl:text-2xl lg:text-lg font-medium ring-2 mr-4 focus:bg-blue-500 focus:text-white"
             to="/projects"
           >
             Projects
           </Link>
           <Link
-            className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-2xl font-medium ring-2 mr-4 focus:bg-blue-500 focus:text-white"
+            className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md xl:text-2xl lg:text-lg font-medium ring-2 mr-4 focus:bg-blue-500 focus:text-white"
             to="/contact"
           >
             Contact
           </Link>
           <a
-            className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-2xl font-medium ring-2 focus:bg-blue-500 focus:text-white"
+            className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md xl:text-2xl lg:text-lg font-medium ring-2 focus:bg-blue-500 focus:text-white"
             href={resume}
             target="_blank"
             rel="noreferrer"
