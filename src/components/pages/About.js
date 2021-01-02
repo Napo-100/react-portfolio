@@ -21,40 +21,29 @@ function About() {
               <span className="text-blue-800 text-6xl"> something </span>
               <span className="text-white text-6xl"> amazing.</span>
             </h1>
-            <p className="text-white">
-              "Creativity isn't my fuel, it's my engine"
-            </p>
+            <p className="text-white">"I like training"</p>
           </div>
         </section>
       </div>
-      <div className="p-5 lg:pt-30 lg:mr-3 container mx-auto relative">
-        <section className="bg-black lg:flex p-10 pt-5">
-          <div className="text-lg flex flex-col justify-center ">
+      <div className="lg:p-5 md:pt-5 lg:pt-30 lg:mr-3 container mx-auto">
+        <section className="bg-black lg:flex lg:p-10 lg:pt-5">
+          <div className="text-lg flex flex-col lg:justify-center">
             <h1 className="text-7xl text-gray-300 pb-5">My Toolbox</h1>
             <h1 className="text-6xl text-blue-400 border-t-2 border-blue-800 p-3">
-              <span className="text-7xl hover:text-blue-700"> React </span>
-              <span className="text-5xl hover:text-indigo-900"> MongoDb </span>
-              <span className="text-7xl hover:text-blue-700"> MySQL </span>
-              <span className="text-6xl hover:text-indigo-900">
+              <span className="text-7xl text-blue-300"> Node.js </span>
+              <span className="text-5xl text-indigo-500"> MongoDb </span>
+              <span className="text-7xl text-blue-300"> React </span>
+              <span className="text-5xl text-indigo-900"> TailwindCSS </span>
+              <span className="text-7xl text-indigo-400"> MySQL </span>
+              <span className="text-5xl text-blue-500"> Mongoose </span>
+              <span className="text-7xl  text-blue-800"> Javascript </span>
+              <span className="text-6xl flex-col text-indigo-700">
                 {" "}
-                TailwindCSS{" "}
+                Handlebars{" "}
               </span>
-              <span className="text-5xl hover:text-blue-700">
-                {" "}
-              Mongoose{" "}
-              </span>
-              <span className="text-8xl ml-10 hover:text-blue-700">
-                Javascript
-              </span>
-              <span className="text-6xl ml-10 hover:text-indigo-900">
-                Handlebars
-              </span>
-              <span className="text-7xl ml-10 hover:text-blue-700">
-                Sequelize
-              </span>
-              
+              <span className="text-7xl  text-blue-300"> Sequelize </span>
 
-              <span className="text-7xl ml-20"> Iconssssssssssssssssssssssssssssss </span>
+              <span className="text-7xl flex-row">***************</span>
             </h1>
             <p></p>
           </div>

@@ -17,7 +17,7 @@ function Nav() {
           className="text-white  px-3 py-2 rounded-md text-xl font-medium"
           to="/"
         >
-          <h5 className="text-3xl text-white flex justify-center">
+          <h5 className="text-4xl text-white flex justify-center">
             Michael Napolitano
           </h5>
         </Link>
@@ -45,25 +45,25 @@ function Nav() {
       >
         <ul className="list-reset lg:flex justify-end flex-1 items-center">
           <Link
-            className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
+            className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-2xl font-medium ring-2 mr-4 focus:bg-blue-500 focus:text-white"
             to="/aboutme"
           >
             About Me
           </Link>
           <Link
-            className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
+            className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-2xl font-medium ring-2 mr-4 focus:bg-blue-500 focus:text-white"
             to="/projects"
           >
             Projects
           </Link>
           <Link
-            className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
+            className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-2xl font-medium ring-2 mr-4 focus:bg-blue-500 focus:text-white"
             to="/contact"
           >
             Contact
           </Link>
           <Link
-            className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
+            className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-2xl font-medium ring-2 focus:bg-blue-500 focus:text-white"
             to="/resume"
           >
             Resume
