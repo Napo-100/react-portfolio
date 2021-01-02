@@ -10,7 +10,7 @@ import { IoLogoNodejs } from "react-icons/io";
 import { GrMysql } from "react-icons/gr";
 import { SiTailwindcss } from "react-icons/si";
 import { BiCube } from "react-icons/bi";
-import backgroundImage from "../../assets/photos/IMG_4317.JPG";
+// import backgroundImage from "../../assets/photos/IMG_4317.JPG";
 
 function About() {
   return (

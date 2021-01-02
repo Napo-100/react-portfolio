@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { AiFillGithub } from "react-icons/ai";
 
 import myStudioPortal from "../../assets/project-images/mystudioportal.png";
-import tourVid from "../../assets/project-images/tourvidApp.png";
+// import tourVid from "../../assets/project-images/tourvidApp.png";
 import travelPic from "../../assets/project-images/travel.jpg";
 import passGen from "../../assets/project-images/password-generator.jpg";
 import portfolioTemp from "../../assets/project-images/portfolio-temp.png";
@@ -50,39 +50,40 @@ function Projects() {
   return (
     <main className="bg-black min-h-screen p-12 border-t-2 border-blue-400">
       <section className="container mx-auto ">
-        <h1 className="flex justify-center text-blue-600 font-bold sm:text-5xl md:text-6xl mb-8">
+        <h1 className="flex justify-center text-indigo-600 font-bold sm:text-5xl md:text-6xl mb-8">
           My Projects
         </h1>
         {/* <h2 className="text-2xl text-blue-400 flex justify-center mb-10">
           Check 'em out!
         </h2> */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 border-2 border-blue-300 p-10">
-          {projectData.map((projects) => (
-            <div className="hover:bg-blue-900">
+          {projectData.map((project) => (
+            <div key={project.name} className="hover:bg-blue-900">
               <article className="hover:shadow-xl group">
-                <a href={projects.link} target="_blank">
+                <a href={project.link} target="_blank" rel="noreferrer">
                   <span className="block h-64 relative rounded shadow leading-snug">
                     <img
-                      src={projects.image}
+                      src={project.image} 
                       className="w-full h-full rounded-r absolute"
+                      alt="project"
                     />
                     <span className=" block relative h-full flex justify-start items-end pb-1 pl-1 hover:bg-blue-400 hover:bg-opacity-75">
                       <div className="px-3 py-4 bg-blue-600 bg-opacity-75">
                         <h3 className="text-white  text-lg font-bold">
-                          {projects.name}
+                          {project.name}
                         </h3>
-                        <p className="text-white ">{projects.components}</p>
+                        <p className="text-white ">{project.components}</p>
                       </div>
                     </span>
                   </span>
                 </a>
               </article>
-              <a href={projects.github} target="_blank" className="text-4xl">
+              <a href={project.github} target="_blank" rel="noreferrer" className="text-4xl">
                 <div className="grid text-black grid-cols-8">
                   <AiFillGithub />
                   <p className="text-black text-sm col-span-7">
                     pst...click down here to check out the code for{" "}
-                    <span>{projects.name}</span>
+                    <span>{project.name}</span>
                   </p>
                 </div>
               </a>

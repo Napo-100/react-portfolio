@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import logo from "../../logo.svg";
 import "../../App.css";
 import "../../index.css";
+import resume from "../../assets/files/Michael Napolitano-dev-resume.pdf";
 
 function Nav() {
   return (
@@ -62,12 +63,14 @@ function Nav() {
           >
             Contact
           </Link>
-          <Link
+          <a
             className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-2xl font-medium ring-2 focus:bg-blue-500 focus:text-white"
-            to="/resume"
+            href={resume}
+            target="_blank"
+            rel="noreferrer"
           >
             Resume
-          </Link>
+          </a>
         </ul>
       </div>
     </nav>
