@@ -19,7 +19,7 @@ function Footer() {
           <AiFillGithub />
         </div>
       </a>
-      <a href="https://github.com/Napo-100" target="_blank">
+      <a href="mailto:michaeljnapolitano@gmail.com" target="_blank">
         <div className="text-6xl hover:text-blue-800 pr-7">
           <AiOutlineMail />
         </div>

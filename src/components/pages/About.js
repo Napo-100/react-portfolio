@@ -1,5 +1,15 @@
 import React from "react";
 import profileImage from "../../assets/photos/goku400x400.jpg";
+import "../../App.css";
+import { DiReact } from "react-icons/di";
+import { DiJavascript } from "react-icons/di";
+import { DiSqllite } from "react-icons/di";
+import { GiMustache} from "react-icons/gi";
+import { SiMongodb } from "react-icons/si";
+import { IoLogoNodejs } from "react-icons/io";
+import { GrMysql } from "react-icons/gr";
+import { SiTailwindcss } from "react-icons/si";
+import { BiCube } from "react-icons/bi";
 import backgroundImage from "../../assets/photos/IMG_4317.JPG";
 
 function About() {
@@ -26,11 +36,12 @@ function About() {
         </section>
       </div>
       <div className="lg:p-5 md:pt-5 lg:pt-30 lg:mr-3 container mx-auto">
-        <section className="bg-black lg:flex lg:p-10 lg:pt-5">
-          <div className="text-lg flex flex-col lg:justify-center">
-            <h1 className="text-7xl text-gray-300 pb-5">My Toolbox</h1>
-            <h1 className="text-6xl text-blue-400 border-t-2 border-blue-800 p-3">
-              <span className="text-7xl text-blue-300"> Node.js </span>
+        <section className="bg-black lg:flex lg:p-10 lg:pt-5 text-lg flex flex-col lg:justify-center">
+          {/* <div className=""> */}
+          <h2 className="text-7xl text-gray-300 pb-5">My Toolbox</h2>
+          <div className="text-6xl text-blue-400 border-t-2 border-blue-800 p-3 grid lg:grid-cols-6 xl:grid-cols-12">
+            {/* <div className="grid lg:grid-cols-6 xl:grid-cols-12"> */}
+            {/* <span className="text-7xl text-blue-300"> Node.js </span>
               <span className="text-5xl text-indigo-500"> MongoDb </span>
               <span className="text-7xl text-blue-300"> React </span>
               <span className="text-5xl text-indigo-900"> TailwindCSS </span>
@@ -41,12 +52,39 @@ function About() {
                 {" "}
                 Handlebars{" "}
               </span>
-              <span className="text-7xl  text-blue-300"> Sequelize </span>
+              <span className="text-7xl  text-blue-300"> Sequelize </span> */}
 
-              <span className="text-7xl flex-row">***************</span>
-            </h1>
-            <p></p>
+            <span className="text-5xl flex flex-row mt-4 col-span-2 mb-2 text-gray-500">
+              <IoLogoNodejs /> Node.js
+            </span>
+            <span className="text-5xl flex mt-4 col-span-2 text-blue-400">
+             <GrMysql /> MySQL
+            </span>
+            <span className="text-5xl flex mt-4 col-span-3 text-blue-500">
+            <SiTailwindcss /> TailwindCSS
+            </span>
+            <span className="text-5xl flex mt-4 col-span-2 App-link">
+              <DiReact /> React
+            </span>
+            <span className="text-5xl flex mt-4 col-span-2">
+              <DiJavascript /> JavaScript
+            </span>
+            <span className="text-5xl flex mt-4 col-span-3 text-green-400">
+              <SiMongodb /> MongoDb
+            </span>
+            <span className="text-5xl flex mt-4 col-span-3 text-gray-400">
+              <GiMustache /> Handlebars
+            </span>
+            <span className="text-5xl flex mt-4 col-span-2 text-blue-400">
+              <DiSqllite /> SQLite
+            </span>
+            <span className="text-5xl flex mt-4 col-span-2 text-blue-600">
+              <BiCube /> Sequelize
+            </span>
           </div>
+          {/* </div> */}
+          <p></p>
+          {/* </div> */}
         </section>
       </div>
     </main>

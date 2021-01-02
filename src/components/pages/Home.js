@@ -28,8 +28,6 @@ function Home() {
                   {" "}
                   Worker{" "}
                 </span>
-                <br></br>{" "}
-                <span className="text-indigo-700 text-6xl grid-cols"> </span>
               </h1>
 
               <h1 className="text-6xl text-blue-300 mb-10 xl:col-span-3 lg:col-span-2">
