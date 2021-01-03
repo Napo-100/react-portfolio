@@ -6,10 +6,10 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     screens: {
-      sm: "640px",
-      md: "768px",
-      lg: "1024px",
-      xl: "1280px",
+      'sm': "640px",
+      'md': "768px",
+      'lg': "1024px",
+      'xl': "1280px",
       "2xl": "1536px",
     },
     colors: {
@@ -906,7 +906,7 @@ module.exports = {
     translate: ["responsive", "hover", "focus"],
     userSelect: ["responsive"],
     verticalAlign: ["responsive"],
-    visibility: ["responsive"],
+    visibility: ["responsive", "group-hover", "hover"],
     whitespace: ["responsive"],
     width: ["responsive"],
     wordBreak: ["responsive"],

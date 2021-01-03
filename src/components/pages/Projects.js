@@ -14,7 +14,7 @@ function Projects() {
       name: "My Studio Portal",
       image: myStudioPortal,
       link: "https://pacific-river-56030.herokuapp.com/",
-      components: "Node.js, Sequelize, Handlebars.js, Bootstrap",
+      components: "Node.js, Express, Sequelize, Handlebars.js, Bootstrap",
       github: "https://github.com/jrsparl/UCF-mystudioportal.git",
     },
     {
@@ -50,7 +50,7 @@ function Projects() {
   return (
     <main className="bg-black min-h-screen p-12 border-t-2 border-blue-400">
       <section className="container mx-auto ">
-        <h1 className="flex justify-center text-indigo-600 font-bold sm:text-5xl md:text-6xl mb-8">
+        <h1 className="flex justify-center text-blue-500  text-6xl mb-8">
           My Projects
         </h1>
         {/* <h2 className="text-2xl text-blue-400 flex justify-center mb-10">
@@ -58,7 +58,7 @@ function Projects() {
         </h2> */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 border-2 border-blue-300 p-10">
           {projectData.map((project) => (
-            <div key={project.name} className="hover:bg-blue-900">
+            <div key={project.name} className="hover:bg-indigo-500">
               <article className="hover:shadow-xl group">
                 <a href={project.link} target="_blank" rel="noreferrer">
                   <span className="block h-64 relative rounded shadow leading-snug">
@@ -79,7 +79,7 @@ function Projects() {
                 </a>
               </article>
               <a href={project.github} target="_blank" rel="noreferrer" className="text-4xl">
-                <div className="grid text-black grid-cols-8">
+                <div className="grid text-black grid-cols-8  hover:bg-blue-500">
                   <AiFillGithub />
                   <p className="text-black text-sm col-span-7">
                     pst...click down here to check out the code for{" "}

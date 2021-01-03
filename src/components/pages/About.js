@@ -36,10 +36,10 @@ function About() {
         </section>
       </div>
       <div className="lg:p-5 md:pt-5 lg:pt-30 lg:mr-3 container mx-auto">
-        <section className="bg-black lg:flex lg:p-10 lg:pt-5 text-lg flex flex-col lg:justify-center">
+        <section className="bg-black lg:flex lg:p-10 lg:pt-5 text-lg flex flex-col lg:justify-center border-t-2 md:border-0 border-blue-800">
           {/* <div className=""> */}
           <h2 className="text-7xl text-gray-300 pb-5">My Toolbox</h2>
-          <div className="text-6xl text-blue-400 border-t-2 border-blue-800 p-3 grid lg:grid-cols-6 xl:grid-cols-12">
+          <div className="text-6xl text-blue-400 border-0 md:border-t-2 border-blue-800 p-3 grid lg:grid-cols-6 xl:grid-cols-12">
             {/* <div className="grid lg:grid-cols-6 xl:grid-cols-12"> */}
             {/* <span className="text-7xl text-blue-300"> Node.js </span>
               <span className="text-5xl text-indigo-500"> MongoDb </span>

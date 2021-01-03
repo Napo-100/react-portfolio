@@ -7,24 +7,21 @@ import resume from "../../assets/files/Michael Napolitano-dev-resume.pdf";
 
 function Nav() {
   return (
-    <nav className="bg-black flex items-center justify-between flex-wrap p-6 w-full h-36 z-10 top-0">
-      <div className="flex items-center flex-shrink-0 text-white mr-6">
+    <nav className="bg-black flex justify-center lg:justify-between flex-wrap p-3 md:p-6 w-full h-36">
+      <div className="flex items-center text-white mr-6">
         <img
-          className="lg:block h-20 w-auto App-logo"
+          className="invisible md:visible lg:block lg:h-20 md:h-10 h-0 w-auto App-logo"
           src={logo}
           alt="react logo"
         />
-        <Link
-          className="text-white  px-3 py-2 rounded-md text-xl font-medium"
-          to="/"
-        >
-          <h5 className="text-4xl text-white flex justify-center">
+        <Link to="/">
+          <h5 className="text-4xl flex justify-center px-2">
             Michael Napolitano
           </h5>
         </Link>
       </div>
       {/* Burger collapse for smaller screen sizes */}
-      <div className="block lg:hidden">
+      {/* <div className="block lg:hidden">
         <button
           id="nav-toggle"
           className="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-white hover:border-white"
@@ -38,13 +35,13 @@ function Nav() {
             <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
           </svg>
         </button>
-      </div>
+      </div> */}
 
       <div
-        className="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block pt-6 lg:pt-0"
+        className="w-full flex-grow lg:flex lg:items-center lg:w-auto lg:block pt-6 lg:pt-0"
         id="nav-content"
       >
-        <ul className="list-reset lg:flex justify-end flex-1 items-center">
+        <ul className="list-reset flex justify-center lg:justify-end flex-1 items-center">
           <Link
             className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md xl:text-2xl lg:text-lg font-medium ring-2 mr-4 focus:bg-blue-500 focus:text-white"
             to="/aboutme"
