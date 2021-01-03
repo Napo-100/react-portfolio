@@ -15,23 +15,25 @@ import { BiCube } from "react-icons/bi";
 function About() {
   return (
     <main className="bg-gray-800 min-h-screen border-t-2 border-blue-400">
-      <div className="container mx-auto aboslute lg:ml-5 lg:pt-5">
+      <div className="container mx-auto aboslute sm:pt-5">
         <section className="bg-black lg:flex p-10">
           <img
             src={profileImage}
             className="w-32 h-32 lg:w-64 lg:h-64 mr-8"
             alt="Me!"
           />
-          <div className="text-lg flex flex-col justify-center">
+          <div className="text-4xl text-white flex flex-col">
             <h1 className="text-6xl mb-20 ">
-              <span className="text-blue-700 text-6xl"> Let's work </span>
-              <span className="text-white text-6xl"> together </span>
-              <span className="text-blue-700 text-6xl"> and </span>
-              <span className="text-white text-6xl"> create</span>
-              <span className="text-blue-700 text-6xl"> something </span>
-              <span className="text-white text-6xl"> amazing.</span>
+              <span className="text-blue-700"> I am a software </span>
+              <span> engineer </span>
+              <span className="text-blue-700"> who believes in the </span>
+              <span> balance</span>
+              <span className="text-blue-700"> of </span>
+              <span> form</span>
+              <span className="text-blue-700"> and </span>
+              <span> function.</span>
             </h1>
-            <p className="text-white">"I like training"</p>
+            <p></p>
           </div>
         </section>
       </div>

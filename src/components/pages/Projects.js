@@ -50,20 +50,20 @@ function Projects() {
   return (
     <main className="bg-black min-h-screen p-12 border-t-2 border-blue-400">
       <section className="container mx-auto ">
-        <h1 className="flex justify-center text-blue-500  text-6xl mb-8">
+        <h1 className="flex justify-center text-blue-500 text-5xl sm:text-6xl mb-8">
           My Projects
         </h1>
         {/* <h2 className="text-2xl text-blue-400 flex justify-center mb-10">
           Check 'em out!
         </h2> */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 border-2 border-blue-300 p-10">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 border-2 border-blue-300 p-2 sm:p-10">
           {projectData.map((project) => (
             <div key={project.name} className="hover:bg-indigo-500">
               <article className="hover:shadow-xl group">
                 <a href={project.link} target="_blank" rel="noreferrer">
                   <span className="block h-64 relative rounded shadow leading-snug">
                     <img
-                      src={project.image} 
+                      src={project.image}
                       className="w-full h-full rounded-r absolute"
                       alt="project"
                     />
@@ -78,7 +78,12 @@ function Projects() {
                   </span>
                 </a>
               </article>
-              <a href={project.github} target="_blank" rel="noreferrer" className="text-4xl">
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noreferrer"
+                className="text-4xl"
+              >
                 <div className="grid text-black grid-cols-8  hover:bg-blue-500">
                   <AiFillGithub />
                   <p className="text-black text-sm col-span-7">
