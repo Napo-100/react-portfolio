@@ -13,49 +13,49 @@ function Home() {
             <div className="text-4xl sm:text-6xl md:text-center lg:flex lg:flex-col lg:relative group lg:grid lg:grid-cols-4 xl:grid-cols-12">
               <h1 className="text-blue-400 mb-5 col-span-2">
                 <span className=" font-bold lg:pl-4 md:pl-2"> I am </span>{" "}
-                <span className="visible md:invisible group-hover:visible text-blue-400 font-bold">
+                <span className="visible lg:invisible group-hover:visible text-blue-400 font-bold">
                   {" "}
                   a{" "}
                 </span>
               </h1>
               <h1 className="text-blue-400 mb-10 xl:col-span-4 lg:col-span-2 md:col-span-3">
-                <span className="text-blue-400 md:text-indigo-600 group-hover:text-blue-400 font-bold">
+                <span className="text-blue-400 lg:text-indigo-600 group-hover:text-blue-400 font-bold">
                   {" "}
                   Passionate
                 </span>
                 <br></br>
-                <span className="visible md:invisible group-hover:visible text-indigo-600 lg:text-5xl">
+                <span className="visible lg:invisible group-hover:visible text-indigo-600 lg:text-5xl">
                   {" "}
                   Worker{" "}
                 </span>
               </h1>
 
               <h1 className="text-blue-400 mb-10 xl:col-span-3 lg:col-span-2">
-                <span className="text-blue-400 md:text-indigo-600 group-hover:text-blue-400 font-bold">
+                <span className="text-blue-400 lg:text-indigo-600 group-hover:text-blue-400 font-bold">
                   Creative
                 </span>
                 <br></br>
 
-                <span className="visible md:invisible group-hover:visible text-indigo-600 lg:text-5xl">
+                <span className="visible lg:invisible group-hover:visible text-indigo-600 lg:text-5xl">
                   {" "}
                   Problem Solver{" "}
                 </span>
               </h1>
               <h1 className="text-blue-400 mb-10 xl:col-span-3 lg:col-span-2 md:col-span-3">
-                <span className="text-blue-400 md:text-indigo-600 group-hover:text-blue-400 font-bold">
+                <span className="text-blue-400 lg:text-indigo-600 group-hover:text-blue-400 font-bold">
                   Ambitious
                 </span>
                 <br></br>
-                <span className="visible md:invisible group-hover:visible text-indigo-600">
+                <span className="visible lg:invisible group-hover:visible text-indigo-600">
                   {" "}
                   Full Stack{" "}
                 </span>
-                <span className="visible md:invisible group-hover:visible text-indigo-600">
+                <span className="visible lg:invisible group-hover:visible text-indigo-600">
                   {" "}
                   Web{" "}
                 </span>
                 <br></br>{" "}
-                <span className="visible md:invisible group-hover:visible text-indigo-600">
+                <span className="visible lg:invisible group-hover:visible text-indigo-600">
                   {" "}
                   Developer{" "}
                 </span>
