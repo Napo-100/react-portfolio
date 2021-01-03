@@ -13,7 +13,8 @@ function Projects() {
     {
       name: "My Studio Portal",
       image: myStudioPortal,
-      link: "https://pacific-river-56030.herokuapp.com/",
+      link:
+        "https://drive.google.com/file/d/10eCX8sYhjsEuwyvgbSre8sPNIxRyDOp4/view",
       components: "Node.js, Express, Sequelize, Handlebars.js, Bootstrap",
       github: "https://github.com/jrsparl/UCF-mystudioportal.git",
     },
