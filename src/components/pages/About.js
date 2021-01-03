@@ -1,5 +1,6 @@
 import React from "react";
-import profileImage from "../../assets/photos/goku400x400.jpg";
+import profileImage from "../../assets/photos/color-profile3.jpeg";
+import bwProfileImage from "../../assets/photos/bw-profile.jpeg";
 import "../../App.css";
 import { DiReact } from "react-icons/di";
 import { DiJavascript } from "react-icons/di";
@@ -19,7 +20,7 @@ function About() {
         <section className="bg-black lg:flex p-10">
           <img
             src={profileImage}
-            className="w-32 h-32 lg:w-64 lg:h-64 mr-8"
+            className="w-32 h-32 lg:w-64 lg:h-64 mr-8 rounded"
             alt="Me!"
           />
           <div className="text-4xl text-white flex flex-col">
