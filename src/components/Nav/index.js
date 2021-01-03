@@ -15,9 +15,9 @@ function Nav() {
           alt="react logo"
         />
         <Link to="/">
-          <h5 className="text-4xl flex justify-center px-2">
+          <h1 className="text-4xl flex justify-center px-2">
             Michael Napolitano
-          </h5>
+          </h1>
         </Link>
       </div>
       {/* Burger collapse for smaller screen sizes */}

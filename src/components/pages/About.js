@@ -1,6 +1,6 @@
 import React from "react";
 import profileImage from "../../assets/photos/color-profile3.jpeg";
-import bwProfileImage from "../../assets/photos/bw-profile.jpeg";
+// import bwProfileImage from "../../assets/photos/bw-profile.jpeg";
 import "../../App.css";
 import { DiReact } from "react-icons/di";
 import { DiJavascript } from "react-icons/di";
@@ -24,7 +24,7 @@ function About() {
             alt="Me!"
           />
           <div className="text-4xl text-white flex flex-col">
-            <h1 className="text-6xl mb-20 ">
+            <h2 className="text-6xl mb-20 ">
               <span className="text-blue-700"> I am a software </span>
               <span> engineer </span>
               <span className="text-blue-700"> who believes in the </span>
@@ -33,7 +33,7 @@ function About() {
               <span> form</span>
               <span className="text-blue-700"> and </span>
               <span> function.</span>
-            </h1>
+            </h2>
             <p></p>
           </div>
         </section>

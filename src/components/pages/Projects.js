@@ -50,9 +50,9 @@ function Projects() {
   return (
     <main className="bg-black min-h-screen p-12 border-t-2 border-blue-400">
       <section className="container mx-auto ">
-        <h1 className="flex justify-center text-blue-500 text-5xl sm:text-6xl mb-8">
+        <h2 className="flex justify-center text-blue-500 text-5xl sm:text-6xl mb-8">
           My Projects
-        </h1>
+        </h2>
         {/* <h2 className="text-2xl text-blue-400 flex justify-center mb-10">
           Check 'em out!
         </h2> */}
