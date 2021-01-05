@@ -8,7 +8,7 @@ import resume from "../../assets/files/Michael Napolitano-dev-resume.pdf";
 function Nav() {
   return (
     <nav className="bg-black flex justify-center lg:justify-between flex-wrap p-3 md:p-6 w-full h-36">
-      <div className="flex items-center text-white mr-6">
+      <div className="flex items-center text-white mr-0">
         <img
           className="invisible md:visible lg:block lg:h-20 md:h-10 h-0 w-auto App-logo"
           src={logo}
