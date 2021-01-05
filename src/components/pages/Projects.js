@@ -15,7 +15,7 @@ function Projects() {
       image: myStudioPortal,
       link:
         "https://drive.google.com/file/d/10eCX8sYhjsEuwyvgbSre8sPNIxRyDOp4/view",
-      components: "Node.js, Express, Sequelize, Handlebars.js, Bootstrap",
+      components: "Node.js, Express.js, Sequelize, Handlebars.js, Bootstrap",
       github: "https://github.com/jrsparl/UCF-mystudioportal.git",
     },
     {
