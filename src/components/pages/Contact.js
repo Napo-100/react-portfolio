@@ -3,12 +3,12 @@ import { AiOutlineMail } from "react-icons/ai";
 
 function Contact() {
   return (
-    <main className="bg-gray-800 min-h-screen p-12 border-t-2 border-blue-400">
+    <main className="bg-gray-800 min-h-screen p-2 sm:p-4 lg:p-6 border-t-2 border-blue-400">
       {/* <h2 className="flex justify-center text-white text-5xl sm:text-7xl mb-8">
         Get in touch
       </h2> */}
       <div className="container mx-auto aboslute">
-        <section className="bg-black lg:flex p-10 pb-5 sm:pb-20">
+        <section className="bg-black lg:flex p-5 sm:p-10 pb-5 sm:pb-20">
           <div className="flex flex-col justify-center">
             <h2 className="text-2xl sm:text-6xl mb-5 sm:mb-20 ">
               <span className="text-blue-700"> Let's work </span>

@@ -38,7 +38,7 @@ function Nav() {
       </div> */}
 
       <div
-        className="w-full flex-grow lg:flex lg:items-center lg:w-auto lg:block pt-6 lg:pt-0"
+        className="w-full flex-grow lg:flex lg:items-center lg:w-auto lg:block pt-4 sm:pt-6 lg:pt-0"
         id="nav-content"
       >
         <ul className="list-reset flex justify-center lg:justify-end flex-1 items-center text-xs xl:text-2xl sm:text-lg sm:font-medium">
