@@ -5,7 +5,7 @@ import { AiOutlineMail } from "react-icons/ai";
 
 function Footer() {
   return (
-    <footer className="bg-gray-900 text-white flex items-center lg:justify-end justify-center p-6 w-full h-28 z-10 top-0">
+    <footer className="bg-gray-900 text-white flex items-center lg:justify-end justify-center sm:p-6 w-full h-28 z-10 top-0">
       <a
         href="https://www.linkedin.com/in/michael-napolitano-0a5b1094/"
         target="_blank" rel="noreferrer"

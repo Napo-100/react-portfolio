@@ -8,9 +8,9 @@ function Contact() {
         Get in touch
       </h2> */}
       <div className="container mx-auto aboslute">
-        <section className="bg-black lg:flex p-10 pb-20">
+        <section className="bg-black lg:flex p-10 pb-5 sm:pb-20">
           <div className="flex flex-col justify-center">
-            <h2 className="text-2xl sm:text-6xl mb-20 ">
+            <h2 className="text-2xl sm:text-6xl mb-5 sm:mb-20 ">
               <span className="text-blue-700"> Let's work </span>
               <span className="text-white"> together </span>
               <span className="text-blue-700"> and </span>
