@@ -10,17 +10,17 @@ function Footer() {
         href="https://www.linkedin.com/in/michael-napolitano-0a5b1094/"
         target="_blank" rel="noreferrer"
       >
-        <div className="text-6xl hover:text-blue-400 pr-7">
+        <div className="text-6xl hover:text-blue-400 sm:pr-7">
           <AiFillLinkedin />
         </div>
       </a>
       <a href="https://github.com/Napo-100" target="_blank" rel="noreferrer">
-        <div className="text-6xl hover:text-black pr-7">
+        <div className="text-6xl hover:text-black pl-6 pr-6 sm:pl-0 sm:pr-7">
           <AiFillGithub />
         </div>
       </a>
       <a href="mailto:michaeljnapolitano@gmail.com" target="_blank" rel="noreferrer">
-        <div className="text-6xl hover:text-blue-800 pr-7">
+        <div className="text-6xl hover:text-blue-800 sm:pr-7">
           <AiOutlineMail />
         </div>
       </a>
