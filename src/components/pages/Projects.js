@@ -49,7 +49,7 @@ function Projects() {
   ]);
 
   return (
-    <main className="bg-black min-h-screen p-12 border-t-2 border-blue-400">
+    <main className="bg-black min-h-screen p-3 md:p-12 border-t-2 border-blue-400">
       <section className="container mx-auto ">
         <h2 className="flex justify-center text-blue-500 text-5xl sm:text-6xl mb-8">
           My Projects
@@ -57,7 +57,7 @@ function Projects() {
         {/* <h2 className="text-2xl text-blue-400 flex justify-center mb-10">
           Check 'em out!
         </h2> */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-6 lg:gap-8 border-2 border-blue-300 p-2 md:p-8 lg:p-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-6 lg:gap-8 border-2 border-blue-300 p-2 md:p-6 lg:p-8">
           {projectData.map((project) => (
             <div key={project.name} className="hover:bg-indigo-500">
               <article className="hover:shadow-xl group">
