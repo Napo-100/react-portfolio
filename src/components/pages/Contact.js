@@ -18,21 +18,27 @@ function Contact() {
               <span className="text-blue-700"> something </span>
               <span className="text-white"> amazing.</span>
             </h2>
-            <a
-              href="mailto:michaeljnapolitano@gmail.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div className="text-white hover:text-blue-600 flex w-full h-28 z-10 top-0">
-                <div className="text-3xl md:text-5xl lg:text-7xl text-blue-600 pr-1 sm:pr-7">
+            <div className="text-white flex w-full h-28 z-10 top-0">
+                <a
+                  href="mailto:michaeljnapolitano@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+              <div className="text-3xl md:text-5xl lg:text-7xl text-blue-600 pr-1 sm:pr-7">
                   <AiOutlineMail />
-                </div>
-
-                <div className="text-sm md:text-3xl lg:text-5xl lg:pr-7">
-                  Michaeljnapolitano@gmail.com
-                </div>
               </div>
-            </a>
+                </a>
+              <div className="text-sm md:text-3xl lg:text-5xl lg:pr-7">
+                <a
+                  href="mailto:michaeljnapolitano@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="hover:text-blue-600"
+                >
+                  Michaeljnapolitano@gmail.com
+                </a>
+              </div>
+            </div>
           </div>
         </section>
       </div>
