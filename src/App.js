@@ -1,5 +1,5 @@
-import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import React , { useState }from "react";
+import { BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
 import Nav from "./components/Nav";
 import Home from "./components/pages/Home";
@@ -10,12 +10,30 @@ import Contact from "./components/pages/Contact";
 import Footer from "./components/Footer";
 
 function App() {
+  const [currentPage, handlePageChange] = useState({Home})
+
+  const renderPage = (props) => {
+    switch (props) {
+      
+      case 'About Me' : return <About/>  
+      case 'Projects' : return <Projects/>  
+      case 'Contact' : return <Contact/> 
+      default : return <Home/>
+    }
+  }
   return (
     <Router>
       <div>
-        <Nav />
+        <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+        <div>
+        {
+          // Render the component returned by 'renderPage()'
+          renderPage(currentPage)
+          //
+        }
+      </div>
 
-        <Switch>
+        {/* <Switch>
           <Route exact path="/aboutme">
             <About />
           </Route>
@@ -28,7 +46,7 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-        </Switch>
+        </Switch> */}
         <Footer />
       </div>
     </Router>
