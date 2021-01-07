@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 // import { AiFillGithub } from "react-icons/ai";
 // import profileImage from "../../assets/photos/profile.jpg";
 // import heroImage from "../../assets/photos/IMG_5703.JPG";
@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <main className="bg-black min-h-screen">
-      <Link to="/aboutme">
+      {/* <Link to="/aboutme"> */}
         <div className="container mx-auto lg:aboslute lg:pt-5 group border-2 border-blue-400">
           <section className="lg:flex p-5 lg:pb-10 lg:justify-center m-20 md:m-5">
             <div className="text-4xl sm:text-6xl md:text-center lg:flex lg:flex-col lg:relative group lg:grid lg:grid-cols-4 xl:grid-cols-12">
@@ -77,7 +77,7 @@ function Home() {
           </span> */}
           </section>
         </div>
-      </Link>
+      {/* </Link> */}
     </main>
   );
 }

@@ -17,7 +17,7 @@ function Nav(props) {
           alt="react logo"
         />
         <a href='#'
-        onClick={() => props.handlePageChange("/")}>
+        onClick={() => props.handlePageChange("#")}>
           <h1 className="text-4xl flex justify-center px-2">
             Michael Napolitano
           </h1>
