@@ -1,4 +1,4 @@
-import React , { useState }from "react";
+import React , { useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
 import Nav from "./components/Nav";
@@ -10,10 +10,10 @@ import Contact from "./components/pages/Contact";
 import Footer from "./components/Footer";
 
 function App() {
-  const [currentPage, handlePageChange] = useState({Home})
+  const [currentPage, handlePageChange] = useState("Home")
 
-  const renderPage = (props) => {
-    switch (props) {
+  const renderPage = () => {
+    switch (currentPage) {
       
       case 'About Me' : return <About/>  
       case 'Projects' : return <Projects/>  
@@ -24,12 +24,12 @@ function App() {
   return (
     <Router>
       <div>
-        <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+        <Nav handlePageChange={handlePageChange} />
         <div>
         {
-          // Render the component returned by 'renderPage()'
-          renderPage(currentPage)
-          //
+          
+          renderPage()
+          
         }
       </div>
 

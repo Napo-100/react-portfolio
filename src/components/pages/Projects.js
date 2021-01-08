@@ -65,7 +65,7 @@ function Projects() {
                   <span className="block h-64 relative rounded shadow leading-snug">
                     <img
                       src={project.image}
-                      className="w-full h-full rounded-r absolute"
+                      className="w-full h-full rounded absolute"
                       alt="project"
                     />
                     <span className=" block relative h-full flex justify-start items-end pb-1 pl-1 hover:bg-blue-400 hover:bg-opacity-75">

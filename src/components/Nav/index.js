@@ -37,9 +37,7 @@ function Nav(props) {
           >
             {tab}
           </a>
-
           ))}
-          
           <a
             className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md ring-2 focus:bg-blue-500 focus:text-white"
             href={resume}
