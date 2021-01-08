@@ -16,12 +16,12 @@ function Nav(props) {
           src={logo}
           alt="react logo"
         />
-        <a href='#'
+        <button className="focus:outline-none"
         onClick={() => props.handlePageChange("#")}>
           <h1 className="text-4xl flex justify-center px-2">
             Michael Napolitano
           </h1>
-        </a>
+        </button>
       </div>
       
       <div

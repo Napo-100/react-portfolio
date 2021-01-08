@@ -12,7 +12,7 @@ function Home() {
           <section className="lg:flex p-5 lg:pb-10 lg:justify-center m-20 md:m-5">
             <div className="text-4xl sm:text-6xl md:text-center lg:flex lg:flex-col lg:relative group lg:grid lg:grid-cols-4 xl:grid-cols-12">
               <h2 className="text-blue-400 mb-5 col-span-2">
-                <span className=" font-bold lg:pl-4 md:pl-2"> I am </span>{" "}
+                <span className="font-bold lg:pl-4 md:pl-2"> I am </span>{" "}
                 <span className="visible lg:invisible group-hover:visible text-blue-400 font-bold">
                   {" "}
                   a{" "}

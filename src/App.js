@@ -1,5 +1,5 @@
 import React , { useState } from "react";
-import { BrowserRouter as Router } from "react-router-dom";
+// import { BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
 import Nav from "./components/Nav";
 import Home from "./components/pages/Home";
@@ -21,8 +21,7 @@ function App() {
       default : return <Home/>
     }
   }
-  return (
-    <Router>
+  return ( 
       <div>
         <Nav handlePageChange={handlePageChange} />
         <div>
@@ -32,24 +31,8 @@ function App() {
           
         }
       </div>
-
-        {/* <Switch>
-          <Route exact path="/aboutme">
-            <About />
-          </Route>
-          <Route exact path="/projects">
-            <Projects />
-          </Route>
-          <Route exact path="/contact">
-            <Contact />
-          </Route>
-          <Route exact path="/">
-            <Home />
-          </Route>
-        </Switch> */}
         <Footer />
-      </div>
-    </Router>
+      </div> 
   );
 }
 

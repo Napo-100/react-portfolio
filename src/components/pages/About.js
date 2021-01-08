@@ -16,7 +16,7 @@ import { BiCube } from "react-icons/bi";
 function About() {
   return (
     <main className="bg-gray-800 min-h-screen border-t-2 border-blue-400">
-      <div className="container mx-auto aboslute sm:pt-5">
+      <div className="lg:px-20 flex-container mx-auto aboslute sm:pt-5">
         <section className="bg-black lg:flex p-10">
           <img
             src={profileImage}
@@ -38,10 +38,10 @@ function About() {
           </div>
         </section>
       </div>
-      <div className="lg:p-5 md:pt-5 lg:pt-30 lg:mr-3 container mx-auto">
+      <div className="lg:px-20 md:pt-5 lg:pt-30 flex-container">
         <section className="bg-black md:flex lg:p-10 lg:pt-5 text-lg flex flex-col md:justify-center border-t-2 md:border-0 border-blue-800">
           {/* <div className=""> */}
-          <h2 className="text-7xl text-gray-300 pb-5">My Toolbox</h2>
+          <h2 className="text-7xl text-gray-300 pb-5 text-center">My Toolbox</h2>
           <div className="text-5xl text-blue-400 border-0 md:border-t-2 border-blue-800 p-3 grid lg:grid-cols-6 xl:grid-cols-12">
             {/* <div className="grid lg:grid-cols-6 xl:grid-cols-12"> */}
             {/* <span className="text-7xl text-blue-300"> Node.js </span>
