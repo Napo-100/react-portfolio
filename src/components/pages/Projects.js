@@ -16,7 +16,7 @@ function Projects() {
       link:
         "https://drive.google.com/file/d/10eCX8sYhjsEuwyvgbSre8sPNIxRyDOp4/view",
       components: "Node.js, Express.js, Sequelize, Handlebars.js, Bootstrap",
-      github: "https://github.com/jrsparl/UCF-mystudioportal.git",
+      github: "https://github.com/jrsparl/UCF-mystudioportal/tree/develop",
     },
     {
       name: "Travel App",
