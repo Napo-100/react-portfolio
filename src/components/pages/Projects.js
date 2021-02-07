@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { AiFillGithub } from "react-icons/ai";
 
 import myStudioPortal from "../../assets/project-images/mystudioportal.png";
-// import tourVid from "../../assets/project-images/tourvidApp.png";
+import creativeSquare from "../../assets/project-images/creative-square.png";
 import travelPic from "../../assets/project-images/travel.jpg";
 import passGen from "../../assets/project-images/password-generator.jpg";
 import portfolioTemp from "../../assets/project-images/portfolio-temp.png";
@@ -10,6 +10,13 @@ import noteTaker from "../../assets/project-images/note-taker.png";
 
 function Projects() {
   const [projectData] = useState([
+    {
+      name: "Creative Square",
+      image: creativeSquare,
+      link: "https://creative-square.herokuapp.com/",
+      components: "MERN stack GraphQL, TaildwindCSS",
+      github: "https://github.com/Napo-100/creative-square",
+    },
     {
       name: "My Studio Portal",
       image: myStudioPortal,
