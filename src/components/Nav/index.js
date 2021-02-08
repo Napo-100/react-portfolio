@@ -3,7 +3,7 @@ import React from "react";
 import logo from "../../logo.svg";
 import "../../App.css";
 import "../../index.css";
-import resume from "../../assets/files/Michael-Napolitano-dev-resume-for-portfolio.pdf";
+import resume from "../../assets/files/Michael-Napolitano-updated-Dev-Resume-for-Portfolio.pdf";
 
 function Nav(props) {
   const tabs = ["About Me", "Projects", "Contact"];
